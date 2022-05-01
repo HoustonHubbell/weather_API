@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<title>Weather API</title>
+</head>
+<body>
+    <h1 class="text-center"></h1>
+    <form name="location" id="location">
+        <label for="city"><strong>City</strong></label>
+        <input type="text" name='city' id="city" placeholder="City">
+        <button class="btn btn-primary mx-3" onclick="loadData()">See Weather</button>
+    </form>
+    <div>
+        <section class="list-group text-center temp-list mt-3" id="info"></section>
+
+    </div>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

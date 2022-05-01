@@ -1,0 +1,19 @@
+body{
+    background-color: linear-gradient(to right, rgb(3, 223, 252), rgb(6, 102, 246));
+    background-image: url(images/sunny.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+}
+
+form{
+    text-align: right;
+}
+
+#info{
+    text-align: left;
+}
+
+.btn{
+    border: 1px solid black;
+}
